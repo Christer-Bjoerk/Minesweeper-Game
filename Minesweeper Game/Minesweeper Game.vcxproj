@@ -20,9 +20,11 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="src\MineField.cpp" />
     <ClCompile Include="src\Minesweeper.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\MineField.h" />
     <ClInclude Include="src\Minesweeper.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
@@ -111,6 +113,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>

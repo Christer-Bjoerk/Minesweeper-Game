@@ -3,11 +3,11 @@
 
 int main() 
 {
-	Minesweeper mineSweeper;
+    // Generates a mine field by giving the heigt, width and X mines.
+    Minesweeper* app = new Minesweeper(10, 10, 10);
 
-	mineSweeper.GenerateMineField(5, 5, 3);
-
-	std::cout << "Hello World";
+    delete app;
+    std::cout << std::endl;
 
 	return 0;
 }
