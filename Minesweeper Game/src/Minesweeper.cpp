@@ -1,6 +1,5 @@
 #include "Minesweeper.h"
 #include <iostream>
-#include "MineField.h"
 #include <vector>
 #include <algorithm>
 #include <iterator>
