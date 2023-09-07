@@ -1,4 +1,4 @@
-# Minesweeper-Game
+# Minesweeper Field
 
 ## Prerequisites
 - Visual Studio with C++ 20 Standard support.
