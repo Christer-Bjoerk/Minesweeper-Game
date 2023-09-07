@@ -5,7 +5,7 @@
 class Minesweeper
 {
 public:
-    Minesweeper(int columns_get = 5, int rows_get = 5, int bomb_count_get = 10);
+    Minesweeper(int getColumns = 5, int getRows = 5, int getMineCount = 10);
     ~Minesweeper();
 
 protected:

@@ -8,8 +8,8 @@
 #include <chrono>
 
 // Constructor
-Minesweeper::Minesweeper(int columns_get, int rows_get, int bomb_count_get) :
-    rows{ rows_get }, columns{ columns_get }, maxSize{ rows * columns }, mineCount{ bomb_count_get }
+Minesweeper::Minesweeper(int getColumn, int getRows, int getMineCount) :
+    rows{ getRows }, columns{ getColumn }, maxSize{ rows * columns }, mineCount{ getMineCount }
 {
     //Initialize the variables then run the functions below in order.
 
@@ -160,7 +160,7 @@ void Minesweeper::AddNumbers()
 
 void Minesweeper::ShowTable() 
 {
-    // Print the 2D vector table
+    // Print out the 2D vector table
 
     int squareOfTheMine{ 0 };
 
